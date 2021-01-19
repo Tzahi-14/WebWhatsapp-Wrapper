@@ -1,0 +1,7 @@
+Waiting for QR
+Bot started
+Checking for more messages
+> c:\users\tzahi\desktop\code\webwhatsapp-wrapper\status.py(29)<module>()
+-> createListOfNumbers()
+(Pdb) --KeyboardInterrupt--
+(Pdb) 

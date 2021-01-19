@@ -16,8 +16,8 @@ It is based on the official Whatsapp Web Browser Application and uses Selenium b
 ## Local installation
 
 ##### Dependencies
-You will need to install [Gecko Driver](https://github.com/mozilla/geckodriver) separately, if using firefox, which is the default.
-
+You will need to install [Gecko Driver]() separately, if using firefox, which is the default.
+https://github.com/mozilla/geckodriver
 #### From Source
 - Clone the repository
 - Use `pip install -r requirements.txt` to install the required packages

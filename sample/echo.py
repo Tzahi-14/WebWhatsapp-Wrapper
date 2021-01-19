@@ -1,12 +1,15 @@
 import time
 from webwhatsapi import WhatsAPIDriver
 from webwhatsapi.objects.message import Message
+import pdb
 
 driver = WhatsAPIDriver()
 print("Waiting for QR")
 driver.wait_for_login()
 
 print("Bot started")
+
+pdb.set_trace()
 
 while True:
     time.sleep(3)
