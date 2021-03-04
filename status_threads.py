@@ -5,10 +5,8 @@ from webwhatsapi.objects.message import Message
 import pdb
 import sys
 
-
-
-file = open("numbers6.txt","a")
-MAX_THREAD = 15
+file = open("numbers7.txt","a")
+MAX_THREAD = 5
 def checknumber(phoneNumberStr):
     # if (driver.check_number_status(phoneNumberStr + '@c.us').status == 200):
     if (driver.check_number_status(phoneNumberStr).status == 200):
@@ -30,9 +28,9 @@ print("Bot started")
 
 
 number_array = []
-for i in range(5410000,5420000):
-    number_array.append("97254" + str(i) + '@c.us')
-
+for i in range(5410010,5410020):
+    number_array.append("97252" + str(i) + '@c.us')
+print(number_array)
 
 threads = []
 
